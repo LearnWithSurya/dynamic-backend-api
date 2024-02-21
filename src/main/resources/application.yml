@@ -5,7 +5,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: root
-    url: jdbc:mysql://localhost:3306/insurance_app
+    url: jdbc:mysqldb://localhost:3306/insurance_app
     username: root
   jpa:
     hibernate:
