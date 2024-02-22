@@ -1,14 +1,10 @@
-#server port
-server:
-  port: 8085
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    password: root
-    url: jdbc:mysqldb://localhost:3306/insurance_app
+    url: jdbc:mysql://mysqldb:3306/insurance_app
     username: root
+    password: root
   jpa:
     hibernate:
       ddl-auto: update
-    defer-datasource-initialization: true
     show-sql: true
